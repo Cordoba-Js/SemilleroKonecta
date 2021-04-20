@@ -1,0 +1,103 @@
+
+SECTION: Fracciona secciones que semánticamente están ligados.
+ARTICULE: Lleva el contenifo principal de la página.
+ASIDE: Lleva información no tan reelevante, pero que puede ser de interés.
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+- address: Aporta informacion de contacto para un artículo o para la página.
+Depende si va debajo de un article o en el footer.
+- blockquote: Citas a otros autores o documentos. Tiene un argumento cite
+- pre: Código pre-formateado para presentarlo igual a como se escribió. Normalmente va acompañada de una etiqueta code.
+- div: Para dividir el documento. Contenedor genérico para dar estilos CSS
+o para delegación de eventos en Javascript.
+- hr: linea de etremo a extremo
+- span: Contenedor de línea equivalente al div con los contenedores.
+- q: Cita literal dentro del texto.
+- code: Va dentro de pre y es para representar código.
+        
+<!--------------------------------------------->
+<!--------------------------------------------->
+ELEMENTOS DE LÍNEA:
+- em: Emphasis
+- strong: Más emphasis
+- small: Menos emphasis
+- br: Forzar un salto de línea
+- wbr: Salto de línea si hiciera falta
+- time: Contenido hora/fecha
+- i: Italic
+- b: Bold
+- u: Underline
+- sup: Superíndice
+- sub: Subídice
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+ATRIBUTOS
+Es mala práctica llamar a la etiqueta en el CSS
+- class: Asocia una clase a una etiqueta. Se identifica con .
+- id: Asocia una etiqueta a un identificador único. se identifica con #
+- title: Muestra un mensaje al pasar el cursor.
+- data: Permite guardar un valor en una etiqueta. data-var="value".
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+PAGINACIÓN CON LINKS
+<a href="link para para la página">Nombre para el  línk<7/>
+
+ATRIBUTOS DE LOS LINKS (Etiquetas a)
+- target: Para abrir la página en la página propia en una nueva ventana. Para enlace sexternos se recomienda enviar a otra ventana. _self / _blank.
+-download: Descarga de un recurso interno.
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+RUTAS ABSOLUTAS Y RELATIVAS
+absolutas: Son únicas en la web y normalenmente se usan para rutas externas. Tienen un protocolo HHTP o HTTP asociado.
+<a href="https://sitiowebexterno.com"> Nombre para sitio externo</a>
+
+relativas: Se usan para referencias a rutas internas en nuesto proyecto. Son relativas a la raíz del proyecto. La ruta inicia con / para referirse a la raíz.
+<a href="/sitiowebinterno.com"> Nombre para sitio interno</a>
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+LISTAS 
+ul: unordered lists.Etiquetas li internas. Se usa comunmente en el menú.
+ol: ordered lists. Etiquetas li internas. Asigna viñetas a la lista.
+dl: definition lists. Listas de definiciones (Diccionario). Poco usado. Etiquetas internas dl dt:Término y dd:Definición
+
+ATRIBUTOS
+ul : type="circle, square"
+ol: type="letra, número, números romanos"; start="inidice de inicio".
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+TABLAS
+Actualmente ya no se usan porque se usa desde CSS.
+- table -> tr:TableRows -> td:TableData(Columnas)
+- caption: Título de una tabla. Es opcional.
+- thead: Encabezado de la tabla. lleva tr y (th, no td).
+- tbody: Si se usa thead se debe tener tbody. Contenido de la tabla.
+- tfoot: Pie de tabla. Si se usa thead se debe tener tbody y tfoot.
+- Para seleccionar columnas o filas se usan colgroup -> col y ¿rowgroup -> row?
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+FORMULARIOS
+El comortamiento por defecto es recargar la página.
+- form: 
+- label: Para escribir el nombre del campo. for para relacionar con el input.
+- input: El campo que se llenará. No debe ir dentro del label.
+- button: Para enviar los datos. <button></button> para enviar el formulario.
+el type button no envía los datos, debe ser type submmit.
+
+checkbox, checklist, select, datalist(select con filtro).
+
+fielset, legend: Agrupan campos de un formulario y le ponen título a ese grupo.
+meter: Una barra de carga que no puede ser modifcada.
+progress: Similar a meter.
+textarea: Campo de texto grande.
+
+<!--------------------------------------------->
+<!--------------------------------------------->
+  CARPETAS
+  assets: Guarda archivos multimedia. Se divide en carpetas dependiendo del tipo del archivo.

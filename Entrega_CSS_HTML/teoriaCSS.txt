@@ -1,0 +1,21 @@
+Recomendaciones:
+- Usar las clases, poco los id, nunca las etiquetas.
+- Entrar a máximo un nivel de profundidad.
+- !important no se usa nunca.
+
+SELECTORES
+SIMPLES:
+- Universales: *
+- De tipo o de etiqueta: Nombre de la etiqueta.
+- De atributo: #id, .clases, otros atributos[attributeName^*$=value].
+
+COMPUESTOS:
+- Agrupados: clase1, clase2, ..., ClaseN
+- Extendientes: Clase o etiqueta Padre, clase hijo. Clase _> hijo
+- Hermano siguiente: Todas las etiquetas al mismo nivel son hermanas. Clase o etiqueta +~ Hermano
+
+Position: absolute no permite cambiar la posición del elemento.
+
+
+
+

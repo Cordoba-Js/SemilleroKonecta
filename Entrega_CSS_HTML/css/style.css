@@ -1,0 +1,156 @@
+.header__nav {
+  width: 100%;
+  position: fixed;
+  background-color: rgb(55, 160, 226);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+}
+
+.header__nav--list {
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav--list li {
+  display: block;
+  float: left;
+  padding: 0 10px;
+  
+}
+.header__nav--list li a{
+    color: black;
+    text-decoration: none;
+}
+.header__nav--list li a:hover{
+    border-radius: 20px;
+    background-color: darkblue;
+    padding: 20px;
+    color: white;
+}
+.main__div--first {
+    background-image: url("/assets/images/rect-semillero.png");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+.main__title--first {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: antiquewhite;
+}
+.main__sectionhome--title, .main__title {
+  margin-top:1vh;
+  padding-top: 7em;
+}
+
+h3 {
+  margin-left: 60px;
+}
+
+.article__divhome {
+  width: 40%;
+  margin: 0;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 0px 30px;
+  margin-left: 50px;
+  height: 100%;
+  float: left;
+}
+.article__divhome--p {
+  max-height: 100%;
+  margin: 0;
+}
+
+.main__imghome {
+  max-width: 100%;
+}
+
+.main__imghome {
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  height: 50vh;
+  border-radius: 20px;
+}
+
+.main__article {
+  width: 100%;
+  display: inline;
+}
+
+.div__aboutus {
+  max-width: 100%;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 0px 30px;
+  margin: 0 50px 10px 50px;
+}
+
+.main__subtitle {
+  margin-left: 70px;
+}
+.details__faq {
+  max-width: 100%;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 0px 30px;
+  margin: 0 70px 10px 50px;
+}
+.main__article--form {
+  margin: 0 50px 0 50px;
+}
+
+.form__fieldset {
+  position: absolute;
+  display: block;
+  height: 40vh;
+  align-content: center;
+}
+
+.form__div--left {
+  float: left;
+  max-width: 50%;
+  height: 100%;
+}
+.form__div--right {
+  max-width: 50%;
+  float: right;
+  height: 100%;
+}
+
+.form__label {
+  float: left;
+  width: 50%;
+  margin: 2px 0;
+}
+
+.form__input {
+  margin: 2px 0;
+}
+
+
+.body{
+    background: rgb(148,187,233);
+    background: radial-gradient(circle, rgba(148,187,233,0.5536414394859506) 0%, rgba(238,174,202,1) 100%); 
+}
+.main__article--form{
+    padding-bottom: 10em;
+}
+
+.footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(55, 160, 226);
+  }
